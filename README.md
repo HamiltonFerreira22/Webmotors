@@ -29,7 +29,7 @@ Teste :
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
 - [Executar o teste](#executar-o-teste)
 - [Relatórios de testes](#relatórios-de-testes)
-- [Considerações Finais](#considerações-finais)
+
 ---
 ## Tecnologias utilizadas
 ---
