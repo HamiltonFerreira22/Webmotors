@@ -18,7 +18,9 @@ namespace Webmotors.PageObjects
         private IWebElement CampoMarcaModelo { get; set; }
 
         public void ComprarCarro()
-        {            
+        {
+            Global.NomeMetodo = $"{System.Reflection.MethodBase.GetCurrentMethod().Name}";
+
             BrowserFactory.Driver.EsperarElemento(By.XPath("//*[@id='logoHomeWebmotors']/img"));
             BrowserFactory.Driver.FindElement(By.XPath("//button[./text()='OK']")).Clicar(1000);
             BrowserFactory.Driver.FindElement(By.Id("//*[@id='searchBar'']")).PreencherTexto("Honda");
@@ -50,6 +52,8 @@ namespace Webmotors.PageObjects
 
         public void ComprarMoto()
         {
+            Global.NomeMetodo = $"{System.Reflection.MethodBase.GetCurrentMethod().Name}";
+
             BrowserFactory.Driver.EsperarElemento(By.XPath("//*[@id='logoHomeWebmotors']/img"));
             BrowserFactory.Driver.FindElement(By.XPath("//button[./text()='OK']")).Clicar(1000);
             //Escolha do modal motos
@@ -64,6 +68,7 @@ namespace Webmotors.PageObjects
                 BrowserFactory.Driver.FindElement(By.XPath("//*[@id='searchBar']")).PreencherTexto("Honda");
                 BrowserFactory.Driver.Esperar(1000);
             }
+            ScreenShot(Global.NomeMetodo);
             BrowserFactory.Driver.FindElement(By.XPath("//div/strong[./text()='Honda ']")).Clicar(1000);
 
 
@@ -75,8 +80,10 @@ namespace Webmotors.PageObjects
             {
                 BrowserFactory.Driver.FindElement(By.XPath("//h2[contains(text(),'HONDA XRE 300')]")).Clicar();
             }
+            ScreenShot(Global.NomeMetodo);
             BrowserFactory.Driver.EsperarElementoFicarVisivel(By.XPath("//span[contains(text(),' Simule seu financiamento sem compromisso! ')]"));
             BrowserFactory.Driver.FindElement(By.XPath("//*[@id='VehicleBasicInformation']/div/div[1]/div[1]"));
+            ScreenShot(Global.NomeMetodo);
             BrowserFactory.Driver.pressKey("Down");
         }
 

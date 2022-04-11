@@ -6821,11 +6821,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Starline\\Desktop\\Repos_GitHub\\Webmotors\\Webmotors\\Webmotors.csproj",
+      "projectUniqueName": "C:\\Users\\Starline\\Desktop\\Repos_GitHub\\Webmotors\\Webmotors\\Webmotors\\Webmotors.csproj",
       "projectName": "Webmotors",
-      "projectPath": "C:\\Users\\Starline\\Desktop\\Repos_GitHub\\Webmotors\\Webmotors\\Webmotors.csproj",
+      "projectPath": "C:\\Users\\Starline\\Desktop\\Repos_GitHub\\Webmotors\\Webmotors\\Webmotors\\Webmotors.csproj",
       "packagesPath": "C:\\Users\\Starline\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Starline\\Desktop\\Repos_GitHub\\Webmotors\\Webmotors\\obj\\",
+      "outputPath": "C:\\Users\\Starline\\Desktop\\Repos_GitHub\\Webmotors\\Webmotors\\Webmotors\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Starline\\AppData\\Roaming\\NuGet\\NuGet.Config",

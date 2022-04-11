@@ -138,9 +138,24 @@ namespace Webmotors.WrapperFactory
         public class Global
         {
         public static string URL = "https://hportal.webmotors.com.br/";
+        public static string NomeMetodo = "";
 
-        }        
-    
+        }
+
+        public void ScreenShot(string testContext)
+        {
+            var projectPath = Path.GetFullPath(@"TestResults").Remove(Path.GetFullPath(@"TestResults").IndexOf("bin"));
+            var path = projectPath + $"TestResults{Path.DirectorySeparatorChar}Print{Path.DirectorySeparatorChar}{testContext}";
+
+            if (!Directory.Exists(path))
+            {
+                _ = Directory.CreateDirectory(path);
+            }
+            string fileName = $"{path}{Path.DirectorySeparatorChar}{System.DateTime.Now:yyyy-MM-dd-HH-mm-ss}.jpeg";
+            OpenQA.Selenium.Screenshot screenShot = ((OpenQA.Selenium.ITakesScreenshot)BrowserFactory.Driver).GetScreenshot();
+            screenShot.SaveAsFile(fileName);
+        }
+
 
         public static void LoadApplication(string url)
         {

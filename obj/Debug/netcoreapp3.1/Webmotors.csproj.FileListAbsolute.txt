@@ -114,3 +114,10 @@ C:\Users\Starline\Desktop\Repos_GitHub\Webmotors\Webmotors\obj\Debug\netcoreapp3
 C:\Users\Starline\Desktop\Repos_GitHub\Webmotors\Webmotors\obj\Debug\netcoreapp3.1\Webmotors.dll
 C:\Users\Starline\Desktop\Repos_GitHub\Webmotors\Webmotors\obj\Debug\netcoreapp3.1\Webmotors.pdb
 C:\Users\Starline\Desktop\Repos_GitHub\Webmotors\Webmotors\obj\Debug\netcoreapp3.1\Webmotors.genruntimeconfig.cache
+C:\Users\Starline\Desktop\Repos_GitHub\Webmotors\Webmotors\Webmotors\obj\Debug\netcoreapp3.1\Webmotors.csproj.AssemblyReference.cache
+C:\Users\Starline\Desktop\Repos_GitHub\Webmotors\Webmotors\Webmotors\obj\Debug\netcoreapp3.1\Webmotors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Starline\Desktop\Repos_GitHub\Webmotors\Webmotors\Webmotors\obj\Debug\netcoreapp3.1\Webmotors.AssemblyInfoInputs.cache
+C:\Users\Starline\Desktop\Repos_GitHub\Webmotors\Webmotors\Webmotors\obj\Debug\netcoreapp3.1\Webmotors.AssemblyInfo.cs
+C:\Users\Starline\Desktop\Repos_GitHub\Webmotors\Webmotors\Webmotors\obj\Debug\netcoreapp3.1\Webmotors.csproj.CoreCompileInputs.cache
+C:\Users\Starline\Desktop\Repos_GitHub\Webmotors\Webmotors\Webmotors\obj\Debug\netcoreapp3.1\Webmotors.dll
+C:\Users\Starline\Desktop\Repos_GitHub\Webmotors\Webmotors\Webmotors\obj\Debug\netcoreapp3.1\Webmotors.pdb
