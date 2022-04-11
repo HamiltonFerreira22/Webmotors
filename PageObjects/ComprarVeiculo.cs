@@ -25,6 +25,7 @@ namespace Webmotors.PageObjects
             BrowserFactory.Driver.FindElement(By.XPath("//button[./text()='OK']")).Clicar(1000);
             BrowserFactory.Driver.FindElement(By.Id("//*[@id='searchBar'']")).PreencherTexto("Honda");
             BrowserFactory.Driver.FindElement(By.XPath("//div/strong[./text()='Honda ']"));
+            ScreenShot(Global.NomeMetodo);
             if (BrowserFactory.Driver.VerificarElementoPresente(By.XPath("//div[contains(text(),'Não encontramos este termo, verifique a ortografia')]")))
             {
                
@@ -33,7 +34,7 @@ namespace Webmotors.PageObjects
                 BrowserFactory.Driver.Esperar(1000);
             }
             BrowserFactory.Driver.FindElement(By.XPath("//div/strong[./text()='Honda ']")).Clicar(1000);
-
+            ScreenShot(Global.NomeMetodo);
 
             if (BrowserFactory.Driver.VerificarElementoPresente(By.XPath("//h2[contains(text(),'HONDA CITY')]")))
             {
@@ -43,11 +44,8 @@ namespace Webmotors.PageObjects
             {
                 BrowserFactory.Driver.FindElement(By.XPath("//h2[contains(text(),'HONDA FIT')]")).Clicar();
             }
+            ScreenShot(Global.NomeMetodo);
 
-
-            BrowserFactory.Driver.EsperarElementoFicarVisivel(By.XPath("//span[contains(text(),' Simule seu financiamento sem compromisso! ')]"));
-            BrowserFactory.Driver.FindElement(By.XPath("//*[@id='VehicleBasicInformation']/div/div[1]/div[1]"));
-            BrowserFactory.Driver.pressKey("Down");
         }
 
         public void ComprarMoto()
@@ -81,10 +79,7 @@ namespace Webmotors.PageObjects
                 BrowserFactory.Driver.FindElement(By.XPath("//h2[contains(text(),'HONDA XRE 300')]")).Clicar();
             }
             ScreenShot(Global.NomeMetodo);
-            BrowserFactory.Driver.EsperarElementoFicarVisivel(By.XPath("//span[contains(text(),' Simule seu financiamento sem compromisso! ')]"));
-            BrowserFactory.Driver.FindElement(By.XPath("//*[@id='VehicleBasicInformation']/div/div[1]/div[1]"));
-            ScreenShot(Global.NomeMetodo);
-            BrowserFactory.Driver.pressKey("Down");
+ 
         }
 
     }  
